@@ -12,7 +12,7 @@ int main()
   std::cin >> num1; 
   std::cout << "enter a second number: ";
   std::cin  >> num2;
-  int num3 = num1 - num2; 
+  int num3 = num1 * num2; 
   std::cout << "Your answer is: " << num3;
     
 }
