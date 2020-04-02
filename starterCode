@@ -5,14 +5,22 @@
 
 int main()
 {
-
-  int num1 = 0; 
-  int num2 = 0;
+  int num4 = 1;
+  double num1 = 0; 
+  double num2 = 0;
   std::cout << "enter a number: "; 
   std::cin >> num1; 
   std::cout << "enter a second number: ";
   std::cin  >> num2;
   int num3 = num1 / num2; 
-  std::cout << "Your answer is: " << num3;
+  std::cout << "Your answer is: " << num3 << "\n \n";
+    
+    num4 = num4 * num3;
+    
+    num4 = num4%3;
+    
+    std::cout << "Now we will perform modulus on your answer \n";
+    std::cout << "modulus 2 will givee us either 1 or 0 if the answer is even or odd respectively \n";
+    std::cout << "answer mod 2 = " << num4 << "\n";
     
 }
